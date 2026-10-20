@@ -10,7 +10,7 @@
   },
   "scripts": {
     "validate": "node scripts/validate-skills.mjs",
-    "test": "node --test \"tests/**/*.test.mjs\""
+    "test": "node --test tests/validate-skills.test.mjs"
   },
   "repository": {
     "type": "git",
