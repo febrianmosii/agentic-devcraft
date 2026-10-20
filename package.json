@@ -1,0 +1,27 @@
+{
+  "name": "agentic-devcraft",
+  "version": "0.1.0",
+  "description": "Engineering craftsmanship for AI coding agents: skills and guardrails in the open Agent Skills format.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs",
+    "test": "node --test \"tests/**/*.test.mjs\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/febrianmosii/agentic-devcraft.git"
+  },
+  "keywords": [
+    "agent-skills",
+    "ai-coding-agents",
+    "claude-code",
+    "codex",
+    "cursor",
+    "software-engineering"
+  ]
+}
